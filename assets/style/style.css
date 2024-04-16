@@ -17,13 +17,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 17%;
+    padding: 15px 5%;
     background-color: var(--primary-color);
 
 }
 
 .nav-main-container {
-    width: 55%;
+    width: 62%;
     
 }
 
@@ -104,20 +104,20 @@ header {
     cursor: pointer;
 }
 
-.home-banner, .service-banner{
-    height: 80vh;
+.home-banner, .service-banner, .client-banner{
+    height: 90vh;
 }
 
 .main-home-container, .main-service-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 17%;
+    padding: 20px 5%;
     background-color: var(--primary-color);
 }
 
 .main-home-container .left-container {
-    width: 45%;
+    width: 50%;
 }
 
 .main-home-container .left-container h1{
@@ -137,6 +137,14 @@ header {
     display: flex;
     gap: 10px;
     /* height: 50px; */
+
+
+}
+.main-home-container .left-container .home-btn h2{
+    font-size: 56px;
+    font-weight: 700px;
+    margin-top: 20px;
+    color: var(--secondary-color);
 
 
 }
@@ -160,20 +168,23 @@ header {
     background-color: var(--btn-color);
     cursor: pointer;
     color: var(--secondary-color);
-
 }
 
 .main-home-container .home-btn span{
     font-size: 20px;
-    font-weight: 200px;
+    font-weight: 100px;
 }
 
+.main-service-container{
+    margin-top: 200px;
+}
 
 .main-service-container .left-container .service-img{
     width: 85%;
     height: auto;
     object-fit: cover;
     border-radius: 5px 200px 5px 5px;
+
 
 }
 
@@ -201,7 +212,7 @@ header {
 }
 
 .main-service-container .right-container {
-    width: 45%;
+    width: 50%;
 }
 
 .main-service-container .right-container h1{
@@ -233,6 +244,71 @@ header {
     border-radius: 50%;
 }
 
+.client-banner{
+    margin-top: 300px;
+    width: 100%;
+
+}
+.client-main-container .client-logo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    margin: 0 10px;
+}
+
+.client-main-container .client-logo > * {
+    flex-basis: calc((100% - 5 * 30px) / 6);
+}
+
+.client-main-container .client-logo img {
+    max-width: 145px;
+    height: auto; 
+    object-fit: contain; 
+    border-radius: 5px;
+    margin-bottom: 30px;
+    opacity: 0.5;
+}
+
+.client-main-container .client-logo img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
 
 
+.client-main-container h1{
+    font-size: 32px;
+    font-weight: 700px;
+    margin-bottom: 80px;
+    line-height: 56px;
+    text-align: center;
+    padding: 0 400px;
+}
 
+.client-main-container .cmn-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+
+
+}
+
+.client-main-container .cmn-btn button{
+    background-color: var(--hover-color);
+    color: var(--bg-fade);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300px !important;
+    padding: 0 35px;
+    height: 60px;
+    
+}
+
+.client-main-container .cmn-btn button:hover {
+    background-color: var(--btn-color);
+    cursor: pointer;
+    color: var(--secondary-color);
+}
