@@ -104,11 +104,11 @@ header {
     cursor: pointer;
 }
 
-.home-banner, .service-banner, .client-banner{
+.home-banner, .service-banner, .client-banner, .sub-service-banner{
     height: 90vh;
 }
 
-.main-home-container, .main-service-container {
+.main-home-container, .main-service-container, .main-sub-service-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -311,4 +311,106 @@ header {
     background-color: var(--btn-color);
     cursor: pointer;
     color: var(--secondary-color);
+}
+
+
+.main-sub-service-container .left-container {
+    width: 50%;
+}
+
+.main-sub-service-container .left-container h1{
+    font-size: 32px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+    line-height: 56px;
+
+    
+}
+
+.main-sub-service-container .left-container p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: var(--tertiary-color);
+}
+
+
+.main-sub-service-container .right-container {
+    width: 50%;
+}
+
+
+
+.main-sub-service-container .right-container {
+    position: relative;
+}
+
+.main-sub-service-container .right-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    height: 100%;
+    /* Use linear-gradient for the background */
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 0.658));
+    border-radius: 200px 5px 5px 5px;
+}
+
+.main-sub-service-container .right-container .clipart {
+    position: absolute;
+    top: 90%;
+    left: -10%;
+    width: 25%;
+    height: auto;
+}
+
+.main-sub-service-container .right-container .service-img{
+    width: 85%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 200px 5px 5px 5px;
+
+
+}
+
+.main-sub-service-container .left-container .icon-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.main-sub-service-container .left-container .icon-container .icon-text{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.main-sub-service-container .left-container .icon-container .icon-text h2{
+    font-size: 20px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+    line-height: 32px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+
+.main-sub-service-container .left-container .cmn-btn{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    margin-top: 50px;
+ 
+}
+
+.main-sub-service-container .left-container .cmn-btn button{
+    background-color: var(--hover-color);
+    color: var(--bg-fade);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300px !important;
+    padding: 0 35px;
+    height: 60px;
+    
 }
