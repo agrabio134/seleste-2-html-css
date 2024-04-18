@@ -18,6 +18,7 @@ $(document).ready(function() {
         owl.trigger('prev.owl.carousel');
     })
     $(".play").click(function() {
+        
         owl.trigger('play.owl.autoplay', [1000]);
     })
     $(".stop").click(function() {

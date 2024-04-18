@@ -104,11 +104,11 @@ header {
     cursor: pointer;
 }
 
-.home-banner, .service-banner, .client-banner, .sub-service-banner{
+.home-banner, .service-banner, .client-banner, .sub-service-banner, .portfolio-banner{
     height: 90vh;
 }
 
-.main-home-container, .main-service-container, .main-sub-service-container {
+.main-home-container, .main-service-container, .main-sub-service-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -417,4 +417,46 @@ header {
 
 .user-blog{
     margin-top: 150px;
+}
+
+.portfolio-main-container h1{
+    font-size: 32px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+    line-height: 51px;
+    text-align: center;
+    padding: 0 300px;
+}
+
+.portfolio-container  {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    /* flex-wrap: wrap; */
+    /* padding: 0 5%; */
+    margin: 0 20px;
+}
+
+.portfolio-containe .portfolio-item {
+    width: 20%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    opacity: 0.5;
+}
+
+.portfolio-item img{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+
+.portfolio-item .icon-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
