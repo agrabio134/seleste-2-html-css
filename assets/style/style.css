@@ -104,7 +104,7 @@ header {
     cursor: pointer;
 }
 
-.home-banner, .service-banner, .client-banner, .sub-service-banner, .portfolio-banner{
+.home-banner, .service-banner, .client-banner, .sub-service-banner, .portfolio-banner, .email-subscription-banner{
     height: 90vh;
 }
 
@@ -434,7 +434,7 @@ header {
     gap: 5px;
     /* flex-wrap: wrap; */
     /* padding: 0 5%; */
-    margin: 0 20px;
+    margin: 0 70px;
 }
 
 .portfolio-containe .portfolio-item {
@@ -444,19 +444,162 @@ header {
     border-radius: 5px;
     margin-bottom: 30px;
     opacity: 0.5;
+    align-items: center;
+
 }
 
 .portfolio-item img{
-    width: 400px;
+    width: 360px;
     height: auto;
     object-fit: cover;
     border-radius: 5px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 
 }
+
+.portfolio-item img {
+    transition: transform 0.5s ease; /* smooth transition */
+    transform: scale(0.9)
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.0) rotate(5deg); /* scale and rotate on hover */
+    cursor: pointer; /* change cursor to pointer */
+}
+
 
 .portfolio-item .icon-container{
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
+.portfolio-item .portfolio-item-text{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 0 20px;
+    /* gap: 10px; */
+}
+
+.portfolio-item-text .cmn-btn{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    margin-top: 0;
+    align-items: center;
+
+}
+
+.cmn-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.cmn-btn button{
+    background-color: var(--hover-color);
+    color: var(--bg-fade);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400px !important;
+    padding: 0 35px;
+    height: 60px;
+    border: 0;
+
+}
+
+.email-subscription-banner{
+    margin-top: 350px;
+}
+
+.email-subscription-banner .left-container {
+    width: 50%;
+    margin-right: 200px;
+}
+
+.email-subscription-banner .left-container h1{
+    font-size: 32px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+    line-height: 56px;
+
+    
+}
+
+.email-subscription-banner .left-container p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: var(--tertiary-color);
+}
+
+.email-subscription-banner .left-container .email-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.email-subscription-banner .left-container .subscription-form .input-container input{
+    padding: 20px;
+    width: 420px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 20px;
+    
+}
+
+.email-subscription-banner .left-container .subscription-form .input-container button{
+    background-color: var(--btn-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600px !important;
+    padding: 0 35px;
+    height: 40px;
+    border: 0;
+    margin-top: 28px;
+    margin-right: 5px;
+    
+}
+
+.subscription-form {
+    position: relative;
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.input-container input {
+    padding-right: 40px; /* Adjust the padding to accommodate the button */
+}
+
+.input-container button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.email-subscription-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+.email-subscription-banner .right-container {
+    width: 50%;
+}
+
+.email-subscription-banner .right-container img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px 200px 5px 5px;
+}
+
