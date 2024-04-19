@@ -11,6 +11,8 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -689,3 +691,29 @@ header {
     margin: 0 200px;
   }
   
+
+  /* Existing styles remain unchanged */
+
+
+  @media screen and (max-width: 768px) {
+    .nav-main-container {
+        width: 100%;
+    }
+
+    .nav-main-container ul {
+        justify-content: space-around;
+    }
+
+    header {
+        padding: 15px 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main-home-container .left-container h1,
+    .main-home-container .left-container p,
+    .main-home-container .left-container .home-btn h2,
+    .main-home-container .left-container .home-btn button {
+        font-size: 24px;
+    }
+}
