@@ -110,7 +110,7 @@ header {
     height: 90vh;
 }
 
-.main-home-container, .main-service-container, .main-sub-service-container{
+.main-home-container, .main-service-container, .main-sub-service-container, .page-main-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -692,28 +692,3 @@ header {
   }
   
 
-  /* Existing styles remain unchanged */
-
-
-  @media screen and (max-width: 768px) {
-    .nav-main-container {
-        width: 100%;
-    }
-
-    .nav-main-container ul {
-        justify-content: space-around;
-    }
-
-    header {
-        padding: 15px 10px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .main-home-container .left-container h1,
-    .main-home-container .left-container p,
-    .main-home-container .left-container .home-btn h2,
-    .main-home-container .left-container .home-btn button {
-        font-size: 24px;
-    }
-}

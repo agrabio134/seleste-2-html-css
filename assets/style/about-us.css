@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #172636;
+    --secondary-color: #f5f5f5;
+    --tertiary-color: #ACB3B8;
+    --hover-color: #F9DB47;
+    --btn-color: #FF8D3E;
+    --bg-fade: #171C30;
+}
+
+.page-banner{
+    border: 1px solid red;
+
+}
+
+.page-main-container{
+    background-color: #30414E;
+
+}
+
+.page-main-container  .left-container {
+
+    border: 1px solid red;
+    margin-right: 150px;
+    
+
+}
+.page-main-container  .right-container {
+    margin-right: 100px;
+
+    border: 1px solid red;
+
+}
+
+
+.page-main-container .left-container h1{
+    font-size: 40px;
+}
+
+.page-main-container .left-container p{
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--tertiary-color);
+}
+
+.history-main-container{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
+.history-main-container .left-container .hero-img
+{
+
+}
+
+.history-item{
+    display: flex;
+    border: 1px solid red;
+}
+.history-item .icon-text-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid rgb(55, 0, 255);
+}
+
+.history-item h1{
+    font-size: 32px;
+
+}
+
+.history-item p{
+    font-size: 16px;
+    line-height: 32px;
+
+
+}
