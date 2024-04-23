@@ -106,7 +106,7 @@ header {
     cursor: pointer;
 }
 
-.home-banner, .service-banner, .client-banner, .sub-service-banner, .portfolio-banner, .email-subscription-banner{
+.home-banner, .client-banner, .sub-service-banner, .portfolio-banner, .email-subscription-banner{
     height: 90vh;
 }
 
@@ -226,6 +226,13 @@ header {
     
 }
 .main-service-container .right-container .icon-text{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+
+    
+}
+.main-sub-service-container .left-container .icon-text{
     display: flex;
     gap: 20px;
     margin-bottom: 20px;

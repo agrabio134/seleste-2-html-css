@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #172636;
+    --secondary-color: #f5f5f5;
+    --tertiary-color: #ACB3B8;
+    --hover-color: #F9DB47;
+    --btn-color: #FF8D3E;
+    --bg-fade: #171C30;
+}
+
+.page-banner{
+    border: 1px solid red;
+
+}
+
+.page-main-container{
+    background-color: #30414E;
+
+}
+
+.page-main-container  .left-container {
+
+    border: 1px solid red;
+    margin-right: 150px;
+    
+
+}
+.page-main-container  .right-container {
+    margin-right: 100px;
+
+    border: 1px solid red;
+
+}
+
+
+.page-main-container .left-container h1{
+    font-size: 40px;
+}
+
+.page-main-container .left-container p{
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--tertiary-color);
+}
+
+.main-service-section-container{
+    margin-top: 150px;
+    display: grid;
+    padding: 0 5%;
+}
+
+.service-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+    gap: 20px;
+
+}
+
+.service-container .service-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 10px; */
+    width: 270px;
+    text-align: center;
+    background-color: #333A4F;
+    padding: 50px 5px;
+    border-radius: 10px;
+
+}
+
+.service-container .service-item i{
+    font-size: 50px;
+    color: var(--secondary-color);
+}
+
+.service-container .service-item h2{
+    font-size: 20px;
+    font-weight: 600;
+    /* margin-top: 20px; */
+    color: var(--hover-color);
+}
+
+.service-container .service-item p{
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: -5px;
+    color: var(--tertiary-color);
+}
+
+
