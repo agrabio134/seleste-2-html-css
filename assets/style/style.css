@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 5%;
+    padding: 15px 8%;
     background-color: var(--primary-color);
 
 }
@@ -110,11 +110,11 @@ header {
     height: 90vh;
 }
 
-.main-home-container, .main-service-container, .main-sub-service-container, .page-main-container, .main-join-container, .main-contact-form {
+.main-home-container, .main-service-container, .main-sub-service-container, .page-main-container, .main-join-container, .main-contact-form, .team-main-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 5%;
+    padding: 20px 8%;
     background-color: var(--primary-color);
 }
 
