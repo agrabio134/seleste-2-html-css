@@ -199,3 +199,51 @@ border-radius: 10px;
 
 
 
+.office-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.office-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.office-text {
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.office-text h1 {
+    font-size: 32px;
+    color: var(--secondary-color);
+}
+
+.office-text p {
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--tertiary-color);
+
+}
+
+.icon-text-item {
+    margin-bottom: 10px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.icon-text-item i {
+    margin-right: 10px;
+    color: var(--secondary-color);
+}
+
+.office-container img {
+    width: 100%;
+    border-radius: 10px;
+}
