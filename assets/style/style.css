@@ -110,7 +110,7 @@ header {
     height: 90vh;
 }
 
-.main-home-container, .main-service-container, .main-sub-service-container, .page-main-container, .main-join-container, .main-contact-form{
+.main-home-container, .main-service-container, .main-sub-service-container, .page-main-container, .main-join-container, .main-contact-form {
     display: flex;
     justify-content: space-between;
     align-items: center;

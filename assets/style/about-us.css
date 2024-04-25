@@ -7,8 +7,13 @@
     --bg-fade: #171C30;
 }
 
+h4{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
 .page-banner{
-    border: 1px solid red;
 
 }
 
@@ -19,7 +24,6 @@
 
 .page-main-container  .left-container {
 
-    border: 1px solid red;
     margin-right: 150px;
     
 
@@ -27,16 +31,15 @@
 .page-main-container  .right-container {
     margin-right: 100px;
 
-    border: 1px solid red;
 
 }
 
 
-.page-main-container .left-container h1{
+.page-main-container h1{
     font-size: 40px;
 }
 
-.page-main-container .left-container p{
+.page-main-container p{
     font-size: 16px;
     line-height: 32px;
     color: var(--tertiary-color);
@@ -45,22 +48,38 @@
 .history-main-container{
     display: grid;
     grid-template-columns: auto;
+    margin-top: 50px;
+    margin: 20px     50px;
 }
 
 
-.history-main-container .left-container .hero-img
+.history-main-container .hero-img
 {
+
+    height: 480px;
+    border-radius: 10px 200px 10px 10px;
+    width: 370px;
+    
+
+}
+
+.history-main-container img
+{
+
+    height: 100%;
+    border-radius: 20px;
+    width: 370px;
+    
 
 }
 
 .history-item{
     display: flex;
-    border: 1px solid red;
+    margin-bottom: 30px;
 }
 .history-item .icon-text-container{
     display: grid;
     grid-template-columns: auto auto;
-    border: 1px solid rgb(55, 0, 255);
 }
 
 .history-item h1{
@@ -71,6 +90,53 @@
 .history-item p{
     font-size: 16px;
     line-height: 32px;
+    color: var(--tertiary-color);
 
 
 }
+
+.icon-text-main-container{
+    margin: 0 50px;
+}
+
+.icon-text-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.icon-text-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    
+}
+
+.icon-text-item i{
+    font-size: 22px;
+}
+.icon-text-container-mission{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.icon-text-item-mission{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-right: 35px;
+    
+}
+
+.icon-text-item-mission i{
+    font-size: 28px;
+    border-radius: 5px;
+    width: 75px;
+    height: 55px;
+    background-color: #333A4F;
+    text-align: center;
+    line-height: 55px;
+}
+
+
