@@ -206,3 +206,19 @@ h4{
     font-size: 16px !important;
     bottom: 10px; /* Adjust to position the position below the name */
 }
+
+.team-item:nth-child(4n+1) {
+    background-color: orange;
+}
+
+.team-item:nth-child(4n+2) {
+    background-color: yellow;
+}
+
+.team-item:nth-child(4n+3) {
+    background-color: orange;
+}
+
+.team-item:nth-child(4n) {
+    background-color: gray;
+}
