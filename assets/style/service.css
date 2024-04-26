@@ -8,26 +8,27 @@
 }
 
 .page-banner{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
 .page-main-container{
     background-color: #30414E;
+    /* border: 1px solid red; */
 
 }
 
 .page-main-container  .left-container {
 
-    border: 1px solid red;
-    margin-right: 150px;
+    /* border: 1px solid red; */
+    
     
 
 }
 .page-main-container  .right-container {
     margin-right: 100px;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
@@ -51,7 +52,7 @@
 .service-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin-top: 50px;
+    margin-top: 60px;
     gap: 20px;
 
 }
@@ -119,12 +120,12 @@
 {
     background-color: rgba(255, 0, 0, 0) !important;
     color: var(--hover-color) !important;
-    border: 1px solid var(--hover-color) !important;
+    /* border: 1px solid var(--hover-color) !important; */
 }
 
 .contact-btn:hover{
     color: var(--btn-color) !important;
-    border: 1px solid var(--btn-color) !important;
+    /* border: 1px solid var(--btn-color) !important; */
 }
 
 
@@ -169,7 +170,7 @@ border-radius: 10px;
 
 .main-contact-form form input{
     padding: 20px;
-    border: none;
+    /* border: none; */
     border-radius: 5px;
     background-color: #ffffff;
     color: var(--tertiary-color);
@@ -178,7 +179,7 @@ border-radius: 10px;
 
 .main-contact-form form textarea{
     padding: 20px;
-    border: none;
+    /* border: none; */
     border-radius: 5px;
     background-color: #ffffff;
     color: var(--tertiary-color);
@@ -188,7 +189,7 @@ border-radius: 10px;
 
 .main-contact-form form button{
     padding: 20px;
-    border: none;
+    /* border: none; */
     border-radius: 5px;
     background-color: var(--hover-color);
     color: var(--primary-color);
@@ -205,8 +206,19 @@ border-radius: 10px;
     align-items: center;
     margin: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     border-radius: 10px;
+    margin: 0 5%;
+}
+
+.office-container i {
+    font-size: 20px;
+    color: var(--secondary-color);
+    margin-right: 20px;
+}
+
+.office-main-container .office-container .office-text {
+    padding-right: 10px;
 }
 
 .office-container {
@@ -246,4 +258,13 @@ border-radius: 10px;
 .office-container img {
     width: 100%;
     border-radius: 10px;
+}
+
+.main-sub-service-container {
+    margin-top: 20px;
+}
+
+.main-sub-service-container .left-container {
+    padding-right: 100px;
+    
 }

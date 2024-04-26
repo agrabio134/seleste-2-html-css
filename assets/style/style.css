@@ -107,14 +107,14 @@ header {
 }
 
 .home-banner, .client-banner, .sub-service-banner, .portfolio-banner, .email-subscription-banner, .join-us-banner{
-    height: 90vh;
+    margin-bottom: 10px;    
 }
 
 .main-home-container, .main-service-container, .main-sub-service-container, .page-main-container, .main-join-container, .main-contact-form, .team-main-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 8%;
+    padding: 0 8%;
     background-color: var(--primary-color);
 }
 
