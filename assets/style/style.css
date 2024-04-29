@@ -24,6 +24,21 @@ header {
 
 }
 
+.nav-mobile-container {
+    display: none;
+}
+
+/* Styles for the hamburger button */
+.hamburger {
+    display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
 .nav-main-container {
     width: 62%;
     
@@ -699,3 +714,6 @@ header {
   }
   
 
+
+
+  
